@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   height="24px"
+   width="24px"
+   fill="#e3e3e3"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="ram-icon.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="33.833333"
+     inkscape:cx="11.985222"
+     inkscape:cy="12"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M6,15H8V9H6v6Zm5,0h2V9H11v6Zm5,0h2V9H16v6ZM4,17H20V7H4V17Zm0,0V7V17Zm1,4V19H4q-0.82,0-1.41-0.59T2,17V7Q2,6.18 2.59,5.59T4,5H5V3H7V5h4V3h2V5h4V3h2V5h1q0.83,0 1.41,0.59Q22,6.18 22,7V17q0,0.82-0.59,1.41T20,19H19v2H17V19H13v2H11V19H7v2H5Z"
+     id="path1"
+     style="fill:#ffffff" />
+</svg>

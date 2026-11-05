@@ -1,0 +1,7 @@
+{
+    "uuid": "system-monitor@mssoorajsivadas.github.com",
+    "name": "System Monitor",
+    "description": "A customizable system monitoring dashboard",
+    "version": 1,
+    "shell-version": ["50"]
+}

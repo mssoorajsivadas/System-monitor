@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 24 24"
+   height="24px"
+   width="24px"
+   fill="#e3e3e3"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="network-icon.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="33.833333"
+     inkscape:cx="11.985222"
+     inkscape:cy="12"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M10.23,20.27Q9.5,19.55 9.5,18.5t0.73-1.77T12,16t1.78,0.73T14.5,18.5t-0.72,1.77T12,21t-1.77-0.73ZM6.35,15.35L4.25,13.2q1.48-1.47 3.46-2.34T12,10t4.29,0.88t3.46,2.38l-2.1,2.1q-1.1-1.1-2.55-1.72T12,13T8.9,13.63T6.35,15.35ZM2.1,11.1L0,9Q2.3,6.65 5.38,5.32T12,4t6.63,1.32T24,9l-2.1,2.1q-1.93-1.93-4.46-3.01T12,7T6.56,8.09T2.1,11.1Z"
+     id="path1"
+     style="fill:#ffffff" />
+</svg>

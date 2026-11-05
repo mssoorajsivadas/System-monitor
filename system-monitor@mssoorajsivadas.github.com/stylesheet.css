@@ -1,0 +1,244 @@
+.panel-status-menu-box {
+    spacing: 12px;
+    padding: 0;
+}
+
+.monitor-set {
+    spacing: 4px;
+    margin: 0;         
+}
+
+.monitor-icon,
+.monitor-label {
+    padding: 0;
+    margin: 0;
+}
+
+.monitor-speed {
+    min-width: 3.6em;      
+}
+
+.monitor-set:first-child { margin-left: 0; }
+.monitor-set:last-child  { margin-right: 0; }
+
+.monitor-warn { color: #ffaa00; }
+.monitor-high { color: #ff5555; }
+
+/* .monitor-set   { background-color: rgba(255, 0, 0, 0.3); }
+.monitor-icon  { background-color: rgba(0, 255, 0, 0.3); }
+.monitor-label { background-color: rgba(0, 0, 255, 0.3); } */
+
+/* --- Main Dashboard Container --- */
+.system-monitor-dashboard {
+    spacing: 12px;
+    padding: 12px;
+    min-width: 520px;
+}
+
+/* --- Left Sidebar Layout --- */
+.dashboard-sidebar {
+    spacing: 4px;
+    padding-right: 12px;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Sidebar Tab Buttons */
+.dash-tab {
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 8px 14px;
+    color: #aaaaaa;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.dash-tab:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+}
+
+/* Highlighted Active Tab */
+.dash-tab-active {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* --- Content Area & Rows --- */
+.dashboard-content {
+    spacing: 12px;
+    padding-left: 8px;
+}
+
+.dashboard-summary-row {
+    spacing: 8px; 
+    margin-bottom: 12px;
+}
+
+.dash-card-top {
+    spacing: 10px;
+}
+
+/* Circular Icon Box */
+.dash-icon-box {
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 18px;
+    width: 32px;
+    height: 32px;
+    x_align: 0.5;
+    y_align: 0.5;
+}
+
+/* Card Typography */
+.dash-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #e5f3fd;
+}
+
+.dash-sub {
+    font-size: 11px;
+    color: #d4d8d3;
+}
+
+/* --- Card States (Normal, Warning, Critical) --- */
+.dash-card {
+    background-color: #48484b;
+    border-radius: 12px;
+    padding: 12px;
+    spacing: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.04); /* Normal border */
+    min-width: 160px;
+    width: 160px;
+}
+
+/* Warning State (e.g., above 70%) */
+.dash-card-warning {
+    border: 1px solid rgba(243, 156, 18, 0.6); /* Soft Orange/Yellow border */
+    background-color: #484238;    /* Slight warm tint */
+}
+
+/* Critical State (e.g., above 85%) */
+.dash-card-critical {
+    border: 1px solid rgba(231, 76, 60, 0.8);   /* Red border */
+    background-color: #442926;    /* Slight red tint */
+}
+
+.dashboard-footer-row {
+    margin-top: 12px;
+}
+
+.dash-action-button {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dash-action-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* =========================================================
+   Light mode (class 'dash-light' is toggled by dashboard.js
+   when the system color-scheme is not dark)
+   ========================================================= */
+.system-monitor-dashboard.dash-light {
+    background-color: #fafafa;
+    border-radius: 12px;
+}
+
+.dash-light .dashboard-sidebar {
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.dash-light .dash-tab {
+    color: #5e5c64;
+}
+
+.dash-light .dash-tab:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    color: #1e1e1e;
+}
+
+.dash-light .dash-tab-active {
+    color: #1e1e1e;
+}
+
+.dash-light .dash-card {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.dash-light .dash-card-warning {
+    border: 1px solid rgba(243, 156, 18, 0.8);
+    background-color: rgba(255, 244, 222, 0.98);
+}
+
+.dash-light .dash-card-critical {
+    border: 1px solid rgba(231, 76, 60, 0.9);
+    background-color: rgba(255, 228, 225, 0.98);
+}
+
+.dash-light .dash-icon-box {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.dash-light .dash-title,
+.dash-light .dash-stat-text {
+    color: #1e1e1e;
+}
+
+.dash-light .dash-sub {
+    color: #5e5c64;
+}
+
+.dash-light .dash-action-button {
+    color: #1e1e1e;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.dash-light .dash-action-button:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+/* --- Open Ports Table Layout --- */
+.ports-header-row {
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ports-table-header, .port-row {
+    spacing: 12px;
+    padding: 6px 8px;
+    font-size: 12px;
+}
+
+.ports-table-header {
+    color: #888888;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ports-scrollbox {
+    max-height: 260px;
+    min-height: 200px;
+}
+
+.port-col-port, .port-item-port { width: 70px; }
+.port-col-pid, .port-item-pid { width: 60px; color: #aaaaaa; }
+.port-col-service, .port-item-service { color: #dddddd; }
+.port-col-user, .port-item-user { width: 80px; color: #ffaa00; }
+
+.port-row:hover {
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 6px;
+}
